@@ -1,0 +1,217 @@
+@import url(http://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap);
+:root{
+    --fontcolor: #43b9dc;
+    --backgroung: #34d3b4;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 2rem 7%;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+
+}
+header #logo{
+    font-size: 3rem;
+    color: rgb(1, 5, 1);
+}
+header #logo span{
+    color: var(--fontcolor);
+}
+header .navbar a{
+    font-size: 1.5rem;
+    color: var(--backgroung);
+    margin-left: 1.5rem;
+}
+.navbar :hover{
+    color: black;
+    transition: color 0.3s ease;
+}
+.icons a{
+    font-size: 1.5rem;
+    color: var(--fontcolor);
+    margin-left: 1rem;
+}
+.container{
+    background: url(Intro.MP4);
+    width: 100%;
+    padding-top: 7.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 109vh;
+}
+.container .maint-text{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    padding: 0 2rem;
+    text-align: center;
+}
+.container .maint-text h1{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 3rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+    font-family: 'Times New Roman', Times, serif;
+}
+.button{
+    padding: 2rem 9rem;
+    background: var(--backgroung);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    float: center;
+    margin-top: ;
+    font-size: large;
+}
+.button:hover{
+    background: #43b9dc;
+    color: #000;
+}
+.container .maint-text a{
+    color: white;
+    text-decoration: none;
+}
+.service-section{
+    padding: 2rem 25%;
+    background: linear-gradient(#43b9dc, #34d3b4);
+    min-width: 50vh;
+    transform: translateY(75em);
+}
+.service-section h2{
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+.service-card{
+    flex: 2 1 400%;
+    margin: 1rem;
+    margin: 1 2rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1)
+}
+.service-card i{
+    font-size: 4rem;
+    color: var(--backgroung);
+    margin-bottom: 1rem;
+}
+.service-card p{
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif
+}
+.service-section h3{
+    align-self:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+.gallery-section{
+    padding: 2rem 75%;
+    background: linear-gradient(#43b9dc, #34d3b4);
+    min-width: 50vh;
+    transform: translateY(100em);
+}
+.gallery-section h2{
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+.gallery-card{
+    flex: 1 1 300%;
+    margin: 1rem;
+    margin: 1 2rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1)
+}
+.gallery .a{
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.botton{
+    padding: 1rem 10rem;
+    background: var(--backgroung);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    align-items: center;
+    text-decoration-thickness: 23rem;
+    font-size: large;
+}
+.botton:hover{
+    background: #43b9dc;
+    color: #000;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    html{
+        font-size: 50%;
+    }
+    header #menu_bar{
+        display: initial;
+    }
+    header .navbar{
+        poditoion: absolute;
+        top: 100%;
+        left: 100%;
+        right: 0;
+        background: var(--backgroung)
+        height: 100vh;
+        text-align: center;
+
+     }
+     header .navbar a{
+        display: block;
+        background: white;
+        margin-top: 1rem;
+        padding: 2rem;
+        border-radius: 10px;
+    }
+    .container .maint-text{
+        width: 70%;
+        padding: 0;
+} 
